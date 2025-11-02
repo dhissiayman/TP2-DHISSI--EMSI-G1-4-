@@ -4,8 +4,7 @@ package ma.emsi.dhissiayman.tp2;
 import dev.langchain4j.model.chat.ChatModel;
 // Assurez-vous que l'import correspond bien à votre module LangChain4j :
 import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;
-import dev.langchain4j.model.input.PromptTemplate;
-import dev.langchain4j.model.input.Prompt;
+
 
 public class Test1 {
 
