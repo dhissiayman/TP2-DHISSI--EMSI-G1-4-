@@ -9,7 +9,7 @@ import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;
 public class Test1 {
 
     public static void main(String[] args) {
-        // Renseignez la clé via variable d'environnement GOOGLE_AI_API_KEY
+        // Renseignez la clé via variable d'environnement GEMINI_KEY
         ChatModel model = GoogleAiGeminiChatModel.builder()
                 .apiKey(System.getenv("GEMINI_KEY"))
                 .modelName("gemini-2.5-flash")
